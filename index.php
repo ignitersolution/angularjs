@@ -10,6 +10,14 @@
 <script src="js/app.js"></script>  
  <link rel="stylesheet" href="css/bootstrap.css">
  <link rel="stylesheet" href="css/app.main.css">
+ <script>
+	$(function () {
+    $('.nav-tabs a').click(function (e) {
+        e.preventDefault();
+        $('a[href="' + $(this).attr('href') + '"]').tab('show');
+    })
+});
+ </script>
  </head>
  <body>
  <header><h2>Angular JS </h2></header>
