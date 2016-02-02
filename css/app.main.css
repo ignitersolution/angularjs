@@ -1,0 +1,57 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right:auto;
+  width: 99%;
+}
+.tab-content
+{
+	padding: 15px;
+	height: 400px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+/*Basic Info*/
+
+.basic_info td {
+	padding: 5px;
+}
+
+/*SUMMARY */
+.scroll_summary {
+    border-bottom: 1px solid #ccc;
+    width: 800px;
+}
+.gs2k_table_summery {
+    border-spacing: 0;
+    margin-top: 5px;
+    width: 100%;
+    }
+    
+.gs2k_table_summery th {
+    background: #c8e3a2 none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #2f772a;
+    font-family: "Arial",Georgia,serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    padding-left: 5px;
+    text-align: left;
+}
+.gs2k_table_summery td {
+    border: 1px solid #cccccc;
+    font-size: 11px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 5px;
+    text-align: left;
+    width: 50%;
+}
