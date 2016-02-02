@@ -66,7 +66,7 @@
 </table>
 </div>
 <div id="menu1" class="tab-pane fade">
-<img ng-src="{{gender == 'Female1' && 'images/female_profile.jpg' || 'images/male_profile.png'}}" style="width:100px;height: 100px;"/>
+<img ng-src="{{gender == 'Female12' && 'images/female_profile.jpg' || 'images/male_profile.png'}}" style="width:100px;height: 100px;"/>
 
 </div>
 <div id="menu2" class="tab-pane fade">
