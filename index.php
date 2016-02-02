@@ -66,8 +66,8 @@
 </table>
 </div>
 <div id="menu1" class="tab-pane fade">
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-nisi ut aliquip ex ea commodo consequat.</p>
+<img ng-src="{{gender == 'Female1' && 'images/female_profile.jpg' || 'images/male_profile.png'}}" style="width:100px;height: 100px;"/>
+
 </div>
 <div id="menu2" class="tab-pane fade">
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
